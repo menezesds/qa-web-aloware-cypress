@@ -1,0 +1,17 @@
+{
+  "name": "qa-web-aloware-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:mobile": "cypress open --config viewportWidth=370 viewportHeight=660"
+  },
+  "keywords": [],
+  "author": "Diogo Souza Menezes",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.0"
+  }
+}
